@@ -1,0 +1,10 @@
+{$ FOR i 1 10 5 $}
+{$FOR j 0 9 $}
+{$FOR k 0 "9" $}
+ For inside for inside for.
+ Here are the counters: {$= i "j\n is middle loop counter" k $}
+{$END$}
+{$END$}
+                              - that's a lotta space
+  {$= "Outermost loop ending" $}
+{$END$}
